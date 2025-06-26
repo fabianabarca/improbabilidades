@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1000"
+   height="1000"
+   viewBox="0 0 264.58332 264.58334"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="K.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   sodipodi:docname="K.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.14707439"
+     inkscape:cx="-203.97841"
+     inkscape:cy="1220.4708"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="1728"
+     inkscape:window-y="128"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient4"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00c0f3;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#00c0f3;stop-opacity:0;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4"
+       id="radialGradient5"
+       cx="132.29167"
+       cy="132.29167"
+       fx="132.29167"
+       fy="132.29167"
+       r="132.29167"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="opacity:0.38;fill:url(#radialGradient5);fill-opacity:1;stroke-width:2.15836;stroke-linecap:round;stroke-dasharray:5.0939, 5.0939"
+       id="path1"
+       cx="132.29167"
+       cy="132.29167"
+       r="132.29167"
+       inkscape:export-filename="K.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"
+       transform="matrix(0.99480045,0,0,0.99480045,0.68784423,0.68784423)" />
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+       x="-209.14975"
+       y="-60.379349"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="-209.14975"
+         y="-60.379349">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+       x="-216.88992"
+       y="-52.421761"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-216.88992"
+         y="-52.421761">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.837616"
+       x="-224.99673"
+       y="-43.939228"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.837616"
+         x="-224.99673"
+         y="-43.939228">K</tspan></text>
+    <g
+       id="g1"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="-281.52103"
+         y="366.52637"
+         id="text10"
+         inkscape:export-filename="./K_icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           x="-281.52103"
+           y="366.52637">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-319.28992"
+         y="406.72293"
+         id="text9"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           x="-319.28992"
+           y="406.72293">K</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+         x="-303.41019"
+         y="391.58295"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+           x="-303.41019"
+           y="391.58295">K</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+       x="12.066621"
+       y="616.29657"
+       id="text7"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="12.066621"
+         y="616.29657">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+       x="-18.293823"
+       y="651.20135"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-18.293823"
+         y="651.20135">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+       x="-5.1506038"
+       y="637.46765"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+         x="-5.1506038"
+         y="637.46765">K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="261.9263"
+       y="691.63983"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';stroke-width:0.264583"
+         x="261.9263"
+         y="691.63983">kalouk</tspan></text>
+    <g
+       id="g16"
+       transform="translate(346.58288,135.3417)"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="18.265522"
+         y="315.94324"
+         id="text14"
+         inkscape:export-filename="./K_icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan14"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           x="18.265522"
+           y="315.94324">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-10.30347"
+         y="345.58694"
+         id="text15"><tspan
+           sodipodi:role="line"
+           id="tspan15"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           x="-10.30347"
+           y="345.58694">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+         x="1.229588"
+         y="334.57043"
+         id="text16"><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-family:'Baloo 2';-inkscape-font-specification:'Baloo 2 Ultra-Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+           x="1.229588"
+           y="334.57043">k</tspan></text>
+    </g>
+    <g
+       id="g22"
+       transform="translate(-22.897229,68.691688)"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="-223.03311"
+         y="586.02228"
+         id="text20"
+         inkscape:export-filename="./K_icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan20"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           x="-223.03311"
+           y="586.02228">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-261.86032"
+         y="625.16046"
+         id="text21"><tspan
+           sodipodi:role="line"
+           id="tspan21"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           x="-261.86032"
+           y="625.16046">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+         x="-245.98059"
+         y="610.02051"
+         id="text22"><tspan
+           sodipodi:role="line"
+           id="tspan22"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+           x="-245.98059"
+           y="610.02051">k</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:50.8px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+       x="-460.48871"
+       y="507.55527"
+       id="text23"><tspan
+         sodipodi:role="line"
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';stroke-width:0.264583"
+         x="-460.48871"
+         y="507.55527">kalouk</tspan></text>
+    <g
+       id="g26"
+       transform="translate(331.53885,-415.76528)"
+       inkscape:export-filename="./K_icon.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+         x="-223.03311"
+         y="586.02228"
+         id="text24"
+         inkscape:export-filename="./K_icon.png"
+         inkscape:export-xdpi="300"
+         inkscape:export-ydpi="300"><tspan
+           sodipodi:role="line"
+           id="tspan24"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#ffe06a;fill-opacity:1;stroke-width:0.837616"
+           x="-223.03311"
+           y="586.02228">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:160.823px;line-height:1.25;font-family:sans-serif;fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+         x="-261.86032"
+         y="625.16046"
+         id="text25"><tspan
+           sodipodi:role="line"
+           id="tspan25"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#6dc067;fill-opacity:1;stroke-width:0.837616"
+           x="-261.86032"
+           y="625.16046">k</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:174.647px;line-height:1.25;font-family:sans-serif;fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+         x="-245.98059"
+         y="610.02051"
+         id="text26"><tspan
+           sodipodi:role="line"
+           id="tspan26"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Fredoka;-inkscape-font-specification:'Fredoka Bold';fill:#005da4;fill-opacity:1;stroke-width:0.909622"
+           x="-245.98059"
+           y="610.02051">k</tspan></text>
+    </g>
+  </g>
+</svg>
