@@ -255,8 +255,6 @@ $\vert H(\omega) \vert^2$ se llama la *función de transferencia de potencia del
 ![Diagrama espectral](/img/16_espectro.svg)  
 
 
----
-
 ## Potencia promedio de la respuesta
 
 La potencia promedio, denotada por $P_{YY}$, en la respuesta del sistema se encuentra calculando: 
@@ -264,7 +262,7 @@ La potencia promedio, denotada por $P_{YY}$, en la respuesta del sistema se encu
 $$
   P_{YY} = \frac{1}{2\pi}\int_{-\infty}^{\infty}\mathcal{S}_{XX}(\omega)\vert H(\omega) \vert^2  d\omega
 $$ 
----
+
 
 ## Espectros de densidad de potencia cruzada de entrada y salida
 
