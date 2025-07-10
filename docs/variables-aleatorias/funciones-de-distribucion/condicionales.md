@@ -1,12 +1,11 @@
 # Funciones de distribución condicionales
 
-
 ## Función acumulativa condicional
 
 ::: tip Definición
 
 Sea $A$ el evento $\{X \leq x\}$ de la variable aleatoria $X$.  
-La probabilidad $P(X \leq x \mid B)$ se define como la *función acumulativa condicional* de $X$, que se denota $F_X(x \mid B)$:
+La probabilidad $P(X \leq x \mid B)$ se define como la _función acumulativa condicional_ de $X$, que se denota $F_X(x \mid B)$:
 
 $$
 P(A \mid B) = P(X \leq x \mid B) \triangleq F_X(x \mid B) \tag{1}
@@ -19,7 +18,6 @@ $$
 Aplicable a variables aleatorias discretas, continuas o mixtas.
 :::
 
-
 El evento conjunto $\{X \leq x\} \cap B$ consiste de los resultados $s$ tales que $X(s) \leq x$ y $s \in B$.
 
 ![Mapeo evento conjunto](/img/5_mapeo_evento_conjunto.svg)
@@ -27,7 +25,6 @@ El evento conjunto $\{X \leq x\} \cap B$ consiste de los resultados $s$ tales qu
 $$
 \{s : X(s) \leq x \land s \in B\} = \{s_1, s_2, s_3\}
 $$
-
 
 ## Propiedades de la función acumulativa condicional
 
@@ -45,7 +42,8 @@ Todas las propiedades de las funciones acumulativas ordinarias se aplican a $F_X
 4️⃣ Es no decreciente:  
   $F_X(x_1 \mid B) \leq F_X(x_2 \mid B)$ si $x_1 < x_2$
 
-5️⃣ Probabilidad de un segmento:  
+5️⃣ Probabilidad de un segmento:
+
 $$
 P\{x_1 < X \leq x_2 \mid B\} = F_X(x_2 \mid B) - F_X(x_1 \mid B)
 $$
@@ -60,7 +58,7 @@ Si solo existen los resultados elementales $B = \{b_1, b_2, b_3\}$ entonces pued
 :::
 
 ::: info Ejemplo de tres lanzamientos de monedas I
-Considere el experimento de tres lanzamientos de moneda (o el lanzamiento de tres monedas, que es equivalente porque son eventos independientes). Sea la *va* $X$ “el número total de coronas” y sea el evento $B = \{\text{más coronas que escudos}\}$.  
+Considere el experimento de tres lanzamientos de moneda (o el lanzamiento de tres monedas, que es equivalente porque son eventos independientes). Sea la _va_ $X$ “el número total de coronas” y sea el evento $B = \{\text{más coronas que escudos}\}$.  
 Determine y esboce $F_X(x \mid B)$.
 
 El lanzamiento de monedas tiene ocho resultados distintos $(2^3)$. El evento $B$ es:
@@ -81,19 +79,17 @@ $$
 
 Si $X$ es “el número total de coronas” y $B = \{\text{más coronas que escudos}\}$, entonces:
 
-| $x$ | $\{X \leq x\} \cap B$                            | $P(\{X \leq x\} \cap B)$ | $F_{X \mid B}$ |
-|--------|------------------------------------------------------|------------------------------|--------------------|
-| 0      | $\{\text{EEE}\} \cap B = \emptyset$              | 0                            | 0                  |
-| 1      | $\{\text{CEE, ECE, EEC, EEE}\} \cap B = \emptyset$ | 0                            | 0                  |
-| 2      | $\{\text{CCE, CEC, ECC}\}$                        | 3/8                          | 3/4                |
-| 3      | $\{\text{CCC, CCE, CEC, ECC}\} = B$               | 4/8                          | 1                  |
+| $x$ | $\{X \leq x\} \cap B$                              | $P(\{X \leq x\} \cap B)$ | $F_{X \mid B}$ |
+| --- | -------------------------------------------------- | ------------------------ | -------------- |
+| 0   | $\{\text{EEE}\} \cap B = \emptyset$                | 0                        | 0              |
+| 1   | $\{\text{CEE, ECE, EEC, EEE}\} \cap B = \emptyset$ | 0                        | 0              |
+| 2   | $\{\text{CCE, CEC, ECC}\}$                         | 3/8                      | 3/4            |
+| 3   | $\{\text{CCC, CCE, CEC, ECC}\} = B$                | 4/8                      | 1              |
 
 ![Mapeo evento conjunto](/img/5_espacio_eventos_moneda.svg)
 
-
 > **Figura:** Espacio de eventos del experimento de tres lanzamientos de moneda, junto con los eventos $X$, “el número total de coronas” y $B = \{\text{más coronas que escudos}\}$, es decir,  
 > $B = \{\text{CCC, CCE, CEC, ECC}\}$
-
 
 Entonces,
 
@@ -119,12 +115,10 @@ F_X(x) =
 \end{cases}
 $$
 
-
 ![Mapeo evento conjunto](/img/5_func_acum_monedas.svg)
 
-
 > $X$ es “el número total de coronas” y $B = \{\text{más coronas que escudos}\}$
-:::
+> :::
 
 ## Casos especiales de la función acumulativa condicional
 
@@ -191,7 +185,6 @@ La distancia de yerro radial de aterrizajes por paracaídas medida desde el cent
 
 ![](/img/5_blanco_paracaidosmo.svg)
 
-
 $$
 \begin{aligned}
 F_{X}(x) \;=\; \biggl[1 - \exp\!\Bigl(-\tfrac{x^2}{800}\Bigr)\biggr]\,u(x)
@@ -250,7 +243,7 @@ $\displaystyle F_X(x \mid CB) = \bigl(1 - e^{-x/10}\bigr)\,u(x)$ ($x$ en meses)
 
 Visualmente, los chips malos son irreconocibles de entre los buenos. Un chip es comprado. ¿Cuál es la probabilidad de que el chip fallará antes de seis meses de uso?
 
-La distribución de probabilidad *incondicional* para el chip es
+La distribución de probabilidad _incondicional_ para el chip es
 
 $$
 \begin{aligned}
@@ -272,11 +265,9 @@ $$
 [Figura](/img/5_func_acum_chips_2.svg): Función acumulativa de $X$, $F_X(x)$ junto al caso de chips defectuosos, $F_X(x \mid CD)$, y de chips buenos, $F_X(x \mid CB)$. Como hay más chips buenos que defectuosos, la función acumulativa total se acerca más a la de los chips buenos.
 :::
 
-
 # Función de densidad condicional, $f_{X}(x \mid B)$
 
 La función de densidad condicional es una nueva función de densidad, de propiedades idénticas, que asume la existencia de un evento condicionante. En la práctica, al igual que la función acumulativa, puede servir para modelar los distintos escenarios ante diferentes cursos de acción (decisiones, sucesos, otros eventos aleatorios, etc.).
-
 
 ::: tip Función de densidad condicional
 De manera similar a la función de densidad ordidnaria (o incondicional):
@@ -292,29 +283,29 @@ Si $F_{X}(x \mid B)$ contiene discontinuidades tipo escalón, como cuando $X$ es
 
 Todas las propiedades de las funciones de densidad ordinarias se aplican a $f_{X}(x \mid B)$:
 
-- Siempre positivo:  
+- Siempre positivo:
 
-    $$
-    f_{X}(x \mid B) \geq 0
-    $$
+  $$
+  f_{X}(x \mid B) \geq 0
+  $$
 
-- El área bajo la curva es unitaria:  
+- El área bajo la curva es unitaria:
 
-    $$
-    \int_{-\infty}^{\infty}f_{X}(x \mid B)~\mathrm{d}x = 1
-    $$
+  $$
+  \int_{-\infty}^{\infty}f_{X}(x \mid B)~\mathrm{d}x = 1
+  $$
 
-- Probabilidad en un intervalo:  
+- Probabilidad en un intervalo:
 
-    $$
-    P\{x_1 < X \leq x_2 \mid B\} = \int_{x_1}^{x_2}f_{X}(x \mid B)~\mathrm{d}x
-    $$
+  $$
+  P\{x_1 < X \leq x_2 \mid B\} = \int_{x_1}^{x_2}f_{X}(x \mid B)~\mathrm{d}x
+  $$
 
-- Función acumulativa a partir de función de densidad:  
+- Función acumulativa a partir de función de densidad:
 
-    $$
-    F_{X}(x \mid B) = \int_{-\infty}^{x}f_{X}(v \mid B)~\mathrm{d}v
-    $$
+  $$
+  F_{X}(x \mid B) = \int_{-\infty}^{x}f_{X}(v \mid B)~\mathrm{d}v
+  $$
 
 ---
 
@@ -330,7 +321,7 @@ $$
     \end{cases}
 $$
 
-![Funciones de densidad condicional para distintos días](images/5_densidad_cond.svg)
+![Funciones de densidad condicional para distintos días](/img/5_densidad_cond.svg)
 
 > Este ejemplo muestra cómo una misma variable aleatoria puede tener distintas funciones de densidad dependiendo del evento condicionante.
-:::
+> :::

@@ -1,18 +1,19 @@
 # Transformaciones monotónicas
+
 ## Transformaciones monotónicas de una VA continua
 
 ![Transformación monotónica de una variable continua](/img/8_transf_monotonica.svg)
 
 ::: tip Definición
 
-Una transformación o función $T$ es *monotónicamente creciente* en un intervalo si
+Una transformación o función $T$ es _monotónicamente creciente_ en un intervalo si
 
 $$ T(x_1) < T(x_2) \quad \text{para cualquier} \quad x_1 < x_2 $$
 :::
 
 **Transformaciones crecientes**
 
-Supóngase que $T$ es continua y diferenciable en todo valor de $x$ para el que $f_X(x) \neq 0$ (es decir, donde $X$ tiene *soporte*). Para un valor $x_0$ cualquiera en el intervalo se cumple que
+Supóngase que $T$ es continua y diferenciable en todo valor de $x$ para el que $f_X(x) \neq 0$ (es decir, donde $X$ tiene _soporte_). Para un valor $x_0$ cualquiera en el intervalo se cumple que
 
 $$
 y_0 = T(x_0) \quad \text{y} \quad x_0 = T^{-1}(y_0)
@@ -23,7 +24,6 @@ donde $T^{-1}$ representa el inverso de la transformación $T$.
 ## **Premisa (el método CDF)**
 
 > La probabilidad del evento $\{Y \leq y_0\}$ debe igualar la probabilidad del evento $\{X \leq x_0\}$ debido a la correspondencia entre \(X\) e \(Y\).
-
 
 Así entonces, debe cumplirse que
 
@@ -41,7 +41,7 @@ Por lo que resta despejar para $f_Y(y)$, que es la función de interés.
 
 ## Regla de Leibniz
 
-Si $H(x,u)$ es continua en las variables $x$ y $u$, y además  
+Si $H(x,u)$ es continua en las variables $x$ y $u$, y además
 
 $$
   G(u) = \int_{\alpha(u)}^{\beta(u)} H(x,u) \mathrm{d} x
@@ -50,30 +50,30 @@ $$
 entonces la derivada de la integral respecto al parámetro $u$ es:
 
 $$
-  \frac{\mathrm{d} G(u)}{\mathrm{d} u} = H\left[ \beta(u), u \right] \frac{\mathrm{d} \beta(u)}{\mathrm{d} u}  
-  - H\left[\alpha(u), u\right] \frac{\mathrm{d} \alpha(u)}{\mathrm{d} u}  
+  \frac{\mathrm{d} G(u)}{\mathrm{d} u} = H\left[ \beta(u), u \right] \frac{\mathrm{d} \beta(u)}{\mathrm{d} u}
+  - H\left[\alpha(u), u\right] \frac{\mathrm{d} \alpha(u)}{\mathrm{d} u}
   + \int_{\alpha(u)}^{\beta(u)} \frac{\partial H(x,u)}{\partial u} \mathrm{d} x
 $$
 
-En nuestro escenario, y considerando que el límite inferior de $f_X(x)$ es $T^{-1}(y_a)$ y que es una constante (posiblemente $-\infty$), aplica que  
+En nuestro escenario, y considerando que el límite inferior de $f_X(x)$ es $T^{-1}(y_a)$ y que es una constante (posiblemente $-\infty$), aplica que
 
 $$
 \begin{multline}
-  f_Y(y_0) = f_X\left[ T^{-1}(y_0), y_0 \right] \frac{\mathrm{d} T^{-1}(y_0)}{\mathrm{d} y_0} \\  
-  - f_X\left[T^{-1}(y_a), y_0\right] \left(\frac{\mathrm{d} T^{-1}(y_a)}{\mathrm{d} y} = 0\right)   
+  f_Y(y_0) = f_X\left[ T^{-1}(y_0), y_0 \right] \frac{\mathrm{d} T^{-1}(y_0)}{\mathrm{d} y_0} \\
+  - f_X\left[T^{-1}(y_a), y_0\right] \left(\frac{\mathrm{d} T^{-1}(y_a)}{\mathrm{d} y} = 0\right)
   + \int_{T^{-1}(y_a)}^{T^{-1}(y_0)} \left(\frac{\partial f_X(x)}{\partial y} = 0\right) \mathrm{d} x
 \end{multline}
 $$
 
 ## Transformación monotónica creciente
 
-Con base en la regla de Leibniz, evaluada anteriormente, se obtiene  
+Con base en la regla de Leibniz, evaluada anteriormente, se obtiene
 
 $$
   f_{Y}(y_0) = f_{X}\left[ T^{-1}(y_0) \right] \frac{\mathrm{d} T^{-1}(y_0)}{\mathrm{d} y_0}
 $$
 
-pero como la ecuación anterior aplica para cualquier $y_0$, se puede eliminar el subíndice y reescribir  
+pero como la ecuación anterior aplica para cualquier $y_0$, se puede eliminar el subíndice y reescribir
 
 $$
 \boxed{
@@ -85,12 +85,11 @@ que es la función de densidad buscada de $Y$, en términos de la transformació
 
 ## Transformación monotónica decreciente
 
-![Transformación monotónica decreciente](/img/8_transf_monotonica_deccreciente.svg)
-
+![Transformación monotónica decreciente](/img/8_transf_monotonica_decreciente.svg)
 
 ::: tip Definición
 
-Una transformación o función $T$ es *monotónicamente decreciente* en un intervalo si  
+Una transformación o función $T$ es _monotónicamente decreciente_ en un intervalo si
 
 $$ T(x_1) > T(x_2) \quad \text{para cualquier} \quad x_1 < x_2 $$
 :::
@@ -101,7 +100,7 @@ $$
 F_{Y}(y_0) = P\{ Y \leq y_0\} = P\{ X \geq x_0\} = 1 - F_{X}(x_0)
 $$
 
-Siguiendo el mismo razonamiento usado para obtener la ecuación de Leibniz, se obtendrá  
+Siguiendo el mismo razonamiento usado para obtener la ecuación de Leibniz, se obtendrá
 
 $$
 \boxed{
@@ -116,12 +115,12 @@ Dado que la pendiente de $T^{-1}(y)$ es negativa pues la función es decreciente
 ::: tip "Teorema de transformación monotónica"
 
 $$
-f_{Y}(y) = f_{X}\left[ T^{-1}(y) \right] \left| \frac{\mathrm{d} T^{-1}(y)}{\mathrm{d} y} \right|  
+f_{Y}(y) = f_{X}\left[ T^{-1}(y) \right] \left| \frac{\mathrm{d} T^{-1}(y)}{\mathrm{d} y} \right|
 $$
+
 :::
 
 > **Recordatorio:** Es importante notar que la ``monotonicidad'' se evalúa en la función $g(X)$ (la transformación $T(X)$) y no tiene que ver con la función de densidad $f_X(x)$ (error de análisis común).
-
 
 **Notación alternativa del teorema de transformación**
 En ocasiones se utiliza la notación $Y = g(X)$ para la transformación, y $X = h(Y)$ como la transformación inversa. El teorema se enuncia entonces como
@@ -129,7 +128,6 @@ En ocasiones se utiliza la notación $Y = g(X)$ para la transformación, y $X = 
 $$
 f_Y(y) = f_X\left[ h(y) \right] \left\vert \frac{\mathrm{d} h(y)}{\mathrm{d} y} \right\vert
 $$
-
 
 ---
 
@@ -140,7 +138,7 @@ $I$ tiene una distribución uniforme en el intervalo de 1 a 3 A, es decir:
 
 $$
 f_I(i) =
-\begin{cases} 
+\begin{cases}
 \frac{1}{2} & 1 < i < 3 \\
 0 & \text{en otra parte}
 \end{cases}
@@ -150,20 +148,20 @@ $$
 ¿Cuál es el promedio de la potencia disipada en $R$, con $P = g(I) = I^2 R$?
 
 ---
+
 Primero se hará el cálculo mediante E[g(I)] (como se hizo en una presentación anterior) y luego a través de la nueva función de densidad fP (p).
 
 $$
 \begin{aligned}
-E[I] & = \int_{-\infty}^{\infty} i \cdot f_{I}(i) \, \mathrm{d}i \\ 
+E[I] & = \int_{-\infty}^{\infty} i \cdot f_{I}(i) \, \mathrm{d}i \\
     & = \int_{1}^{3} i \cdot \frac{1}{2} \, \mathrm{d}i \\
     & = 2\,\text{A}
 \end{aligned}
 $$
 
-![Promedio de corriente](.//img/8_prom_corriente.svg)
+![Promedio de corriente](/img/8_prom_corriente.svg)
 
 ---
-
 
 $$
 \begin{aligned}
@@ -172,9 +170,10 @@ E[P] & = \int_{1}^{3} i^2 \cdot \frac{1}{2} \, \mathrm{d}i \\
 \end{aligned}
 $$
 
-![Promedio de potencia](.//img/8_prom_potencia.svg)
+![Promedio de potencia](/img/8_prom_potencia.svg)
 
 ---
+
 Es posible obtener $E[P]$ desde $f_P(p)$ por medio de la transformación $g(I) = P = I^2 R$, con
 
 $$
@@ -187,8 +186,6 @@ $$
 f_P(p) = f_I \bigl[ h(p) \bigr] \cdot \left| h'(p) \right| = f_I \left[ \sqrt{\frac{p}{R}} \right] \cdot \left| \frac{(p/R)^{-1/2}}{2} \right|
 $$
 
-
-
 $$
 \begin{aligned}
 f_P(p) & = f_I\left( \sqrt{p} \right) \cdot \left| \frac{\mathrm{d}}{\mathrm{d}p} \sqrt{p} \right|^{-1} \\
@@ -197,24 +194,22 @@ f_P(p) & = f_I\left( \sqrt{p} \right) \cdot \left| \frac{\mathrm{d}}{\mathrm{d}p
 $$
 
 ---
+
 Y su promedio es:
 
 $$
 \begin{aligned}
 E[P] & = \int_{1}^{9} p \cdot \frac{1}{4 \sqrt{p}} \, \mathrm{d}p = \frac{1}{4} \int_{1}^{9} \sqrt{p} \, \mathrm{d}p \\
-    & = \frac{1}{4} \cdot \left. \frac{2}{3} p^{3/2} \right|_1^9 
+    & = \frac{1}{4} \cdot \left. \frac{2}{3} p^{3/2} \right|_1^9
     = \frac{13}{3} \approx \boxed{4.33\,\text{W}}
 \end{aligned}
 $$
 
-![Disipación lineal](.//img/8_disipacion_constante.png)
-
-
+IMAGEN DE DISIPACIÓN LINEAL
 
 <p style="text-align: right; font-size: 22px; color: #0099cc;">
   Simulación de la potencia en un resistor
 </p>
-
 
 <span style="color:green; font-weight:bold;">import</span> <span style="color:blue; font-weight:bold;">numpy</span> <span style="color:green; font-weight:bold;">as</span> <span style="color:blue; font-weight:bold;">np</span>
 
@@ -224,9 +219,9 @@ $$
 
 N = 500
 
-Irvs = [0]*N
+Irvs = [0]\*N
 
-P = [0]*N
+P = [0]\*N
 
 <span style="color:gray; font-style:italic;"># Distribución de la corriente</span>
 
@@ -236,18 +231,15 @@ I = stats.uniform(1, 2)
 
 <span style="color:green; font-weight:bold;">for</span> i <span style="color:violet; font-weight:bold;">in</span> <span style="color:green; font-weight:bold;">range </span> (N):
 
-  Irvs[i] = I.rvs()
+Irvs[i] = I.rvs()
 
-  P[i] = Irvs[i]**2
+P[i] = Irvs[i]\*\*2
 
+![Descripción alternativa](/img/8_sim_corriente.svg)
 
+![Descripción alternativa](/img/8_sim_potencia.svg)
 
-![Descripción alternativa](.//img/8_sim_corriente.svg)
-
-![Descripción alternativa](.//img/8_sim_potencia.svg)
-
-:::
----
+## :::
 
 ::: info **Ejemplo de distribución uniforme y transformaciones de una variable aleatoria**
 
@@ -267,6 +259,7 @@ f_Y(y) = \frac{y}{2} \quad \text{en} \quad y \in [0, 2]
 }
 \end{aligned}
 $$
+
 :::
 
 ::: info **Otro ejemplo de la disipación de potencia en un resistor**
@@ -302,7 +295,7 @@ Y por tanto,
 
 $$
 \boxed{
-f_Y(y) = 
+f_Y(y) =
 \begin{cases}
 \frac{1}{2\sqrt{220 y}} - \frac{1}{1760} & 880 \leq y \leq 3520 \\
 0 & \text{en otra parte}
@@ -310,9 +303,11 @@ f_Y(y) =
 }
 $$
 
-![Disipación lineal](.//img/8_disipacion_lineal.png)
-:::
+<!--
+![Disipación lineal](/img/8_disipacion_lineal.png)
+-->
 
+:::
 
 ::: info **Ejemplo Transformación de variable aleatoria $T$**
 Hay una variable aleatoria $T$ distribuida uniformemente en el intervalo \([1,7]\). Sobre ella se aplica una transformación
@@ -321,7 +316,7 @@ $$
 U = T^{2} - T - 6
 $$
 
-1. Encontrar $f_{U}(u)$, la función de densidad probabilística de la variable aleatoria $U$.  
+1. Encontrar $f_{U}(u)$, la función de densidad probabilística de la variable aleatoria $U$.
 2. Calcular $P\{-4 < U \leq 14\}$.
 
 **Parte 1**: Encontrar $f_{U}(u)$, la función de densidad probabilística de la variable aleatoria $U$.
@@ -361,7 +356,7 @@ $$
 h(u) = \frac{1 + \sqrt{4u + 25}}{2}
 $$
 
-Ahora, para derivar la función inversa, se utiliza regla de la cadena   
+Ahora, para derivar la función inversa, se utiliza regla de la cadena
 
 $$
 \begin{aligned}
@@ -387,7 +382,6 @@ f_U(u) =
 \end{cases}
 }
 $$
-
 
 **Parte 2**: Calcular $P\{-4 < U \leq 14\}$
 
